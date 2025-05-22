@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Scan-and-Print: Patch-level Data Summarization and Augmentation for Content-aware Layout Generation in Poster Design</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Scan-and-Print: Patch-level Data Summarization and Augmentation for Content-aware Layout Generation in Poster Design</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://thekinsley.github.io" target="_blank">HsiaoYuan Hsu</a>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=mFsXPNYAAAAJ&hl=zh-CN&oi=ao" target="_blank">Yuxin Peng</a></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Wangxuan Institute of Computer Technology, Peking University<br>IJCAI 2025 (AI, Arts and Creativity)</span>
+<!--                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper (Coming soon)</span>
+                      </a>
+                    </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/theKinsley/Scan-and-Print-IJCAI2025" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (Coming soon)</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Topic image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/topic.jpg" alt="Illustration of the generalized settings in content-aware layout generation from both (a) data and (b) approach perspectives."/>
+      <h2 class="subtitle has-text-centered">
+        Content-aware layout generation task. (a) Heatmap-based paradigm. (b) Our new efforts: data summarization for efficient image perception and data augmentation for enhanced model generalization, aiming for real-time, robust performance.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In AI-empowered poster design, content-aware layout generation is crucial for the on-image arrangement of visual-textual elements, e.g., logo, text, and underlay.
+            To perceive background images, existing work demanded a high parameter count that far exceeds the size of available training data, which has impeded the model's real-time performance and generalization ability.
+            To address these challenges, we proposed a patch-level data summarization and augmentation approach, vividly named <strong>Scan-and-Print</strong>.
+            Specifically, the <i>scan</i> procedure selects only the patches suitable for placing element vertices to perform fine-grained perception efficiently.
+            Then, the <i>print</i> procedure mixes up patches and vertices across two image-layout pairs to synthesize over 100% new samples in each epoch while preserving their plausibility.
+            To facilitate the vertex-level operations, we also introduced a <i>vertex-based layout representation</i>.
+            Extensive experimental results on widely used benchmarks demonstrated that Scan-and-Print can generate visually appealing layouts with state-of-the-art quality while dramatically reducing computational bottleneck by 95.2%.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Approach pipeline -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h3 class="title">The Proposed Approach: Scan-and-Print</h3>
+      <img src="static/images/approach.jpg" alt="An overview of Scan-and-Print."/>
+      <h6 class="subtitle has-text-centered">An overview of Scan-and-Print.</h6>
+      <div class="content has-text-justified">
+      <p> 
+        (a) represents layout <i>L</i> based on the precise geometric properties, <i>i.e.</i>, vertices, and grouping relationship, <i>i.e.</i>, underlays, to facilitate the following fine-grained procedures;
+        (b) efficiently 'scans' the input image <i>I</i> to perceive only the few patches suitable for arranging element vertices;
+        (c) 'prints' the augmented samples (<i>I&#771;</i>, <i>L&#771;</i>) as extra training data by mixing patches and vertices across different pairs within the mini-batch to enhance the generalization ability of the autoregressive model.
+      </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+@inproceedings{Hsu-IJCAI2025-ScanandPrint,
+  title={Scan-and-Print: Patch-level Data Summarization and Augmentation for Content-aware Layout Generation in Poster Design},
+  author={Hsu, HsiaoYuan and Peng, Yuxin},
+  booktitle={Proceedings of the International Joint Conference on Artificial Intelligence},
+  year={2025}
+}
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            Thanks to the authors of <a href="https://nerfies.github.io" target="_blank">Nerfies</a> for open-sourcing the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>, which this page is based on.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
